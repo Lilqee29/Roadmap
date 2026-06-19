@@ -1,12 +1,19 @@
 
 **Author:** Ibrahim Qoyum
 
+## Project Location
+
+- Folder: `javascript/GreetingBuilder/`
+- Project URL: https://roadmap.sh/projects/js-greeting-builder
+
 ## Project Structure
 
 ```
 roadmapsh/
 ├── javascript/
-│   └── GreetingBuilder.js
+│   └── GreetingBuilder/
+│       ├── GreetingBuilder.js
+│       └── README.md
 └── README.md
 ```
 
