@@ -3,16 +3,22 @@
 
 ## Project Location
 
-- Folder: `javascript/GreetingBuilder/`
-- Project URL: https://roadmap.sh/projects/js-greeting-builder
+- GreetingBuilder:
+   - Folder: `javascript/GreetingBuilder/`
+   - Project URL: https://roadmap.sh/projects/js-greeting-builder
+- NumberDescriber:
+   - Folder: `javascript/NumberDescriber/`
 
 ## Project Structure
 
 ```
 roadmapsh/
 ├── javascript/
-│   └── GreetingBuilder/
-│       ├── GreetingBuilder.js
+│   ├── GreetingBuilder/
+│   │   ├── GreetingBuilder.js
+│   │   └── README.md
+│   └── NumberDescriber/
+│       ├── index.Js
 │       └── README.md
 └── README.md
 ```

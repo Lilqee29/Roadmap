@@ -4,6 +4,8 @@ This directory contains the core greeting builder implementation in JavaScript.
 
 Based on the roadmap.sh project: https://roadmap.sh/projects/js-greeting-builder
 
+Solution: https://roadmap.sh/projects/js-greeting-builder/solutions?u=6a3580f15d8dee437e689d1e  
+
 **Created by:** Ibrahim Qoyum
 
 ## Files
