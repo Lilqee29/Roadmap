@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGIHub Discover</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <main id="container" class="container">
+
+        <div id="hero" class="hero">
+            <div id="logo" class="logo">AGIHub</div>
+
+            <h1 id="main-title" class="main-title">
+                Discover Random GitHub Projects
+            </h1>
+
+            <p id="hero-text" class="hero-text">
+                Explore open-source repositories and find inspiration
+                for your next project.
+            </p>
+        </div>
+
+        <div id="search-panel" class="search-panel">
+
+            <label for="lang-select" id="language-label" class="language-label">
+                Programming Language
+            </label>
+
+            <select id="lang-select">
+                <option value="">Select a language</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="typescript">TypeScript</option>
+                <option value="go">Go</option>
+                <option value="rust">Rust</option>
+            </select>
+
+            <button id="discover-btn" class="discover-btn">
+                Discover Repository
+            </button>
+
+        </div>
+
+        <div id="loading-card" class="loading-card hidden" aria-live="polite">
+            <div class="loading-inner">
+                <div class="spinner" aria-hidden="true"></div>
+                <p id="loading-text" class="loading-text">Loading repository…</p>
+            </div>
+        </div>
+
+        <div id="repo-card" class="repo-card">
+
+            <div id="repo-top" class="repo-top">
+
+                <h2 id="repo-name" class="repo-name">
+                    facebook/react
+                </h2>
+
+                <span id="repo-status" class="status">
+                    Active
+                </span>
+
+            </div>
+
+            <p id="repo-description" class="description">
+                A JavaScript library for building user interfaces and
+                modern web applications.
+            </p>
+
+            <div id="stats" class="stats">
+
+                <div id="stars-box" class="stat">
+                    <span>⭐</span>
+                    <p id="stars-count">235k</p>
+                </div>
+
+                <div id="forks-box" class="stat">
+                    <span>🍴</span>
+                    <p id="forks-count">48k</p>
+                </div>
+
+                <div id="issues-box" class="stat">
+                    <span>🐛</span>
+                    <p id="issues-count">950</p>
+                </div>
+
+                <div id="language-box" class="stat">
+                    <span>💻</span>
+                    <p id="repo-language">JavaScript</p>
+                </div>
+
+            </div>
+             
+            <div class="refresh-btn" id="refresh-btn">Refresh</div>
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

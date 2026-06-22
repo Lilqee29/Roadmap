@@ -8,12 +8,18 @@
    - Project URL: https://roadmap.sh/projects/js-greeting-builder
 - NumberDescriber:
    - Folder: `javascript/NumberDescriber/`
-   -Project URL: https://roadmap.sh/projects/js-number-checker
+   - Project URL: https://roadmap.sh/projects/js-number-checker
+- Expense Summary:
+   - Folder: `javascript/Expense Summary/`
+   - Project URL: https://roadmap.sh/projects/js-expense-summary
 ## Project Structure
 
 ```
 roadmapsh/
 ├── javascript/
+│   ├── Expense Summary/
+│   │   ├── index.js
+│   │   └── README.md
 │   ├── GreetingBuilder/
 │   │   ├── GreetingBuilder.js
 │   │   └── README.md
@@ -25,16 +31,17 @@ roadmapsh/
 
 ## Overview
 
-This project demonstrates a greeting builder that:
-- Formats user names (first name + last name)
-- Determines appropriate greeting based on time of day
-- Combines them into personalized messages
+This project contains several small JavaScript utilities, including:
+- A greeting builder that formats names and creates personalized time-based messages
+- A number describer that checks values and describes them
+- An expense summary tool that calculates totals, category totals, and the largest expense
 
 ## Features
 
 - ✅ Format user names
 - ✅ Time-based greeting logic (Morning, Afternoon, Night)
 - ✅ Personalized greeting messages
+- ✅ Expense summary calculations for total, categories, and largest item
 
 ## Getting Started
 
